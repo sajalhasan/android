@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Function.placeIdTask asyncTask =new Function.placeIdTask(new Function.AsyncResponse() {
+
             public void processFinish(String weather_city, String weather_description, String weather_temperature, String weather_humidity, String weather_pressure, String weather_updatedOn, String weather_iconText, String sun_rise) {
 
                 cityField.setText(weather_city);
