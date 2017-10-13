@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#a7d3de"
+    android:layout_height="match_parent"
+
+    tools:context="com.sajal.world.newspaper.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:weightSum="5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+            android:weightSum="2"
+                android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginRight="10dp"
+                android:background="@drawable/vorar"
+                android:layout_weight="1"
+                android:id="@+id/b1"
+                android:text="b1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <Button
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/prothom"
+                android:layout_weight="1"
+                android:id="@+id/b2"
+                android:text="b2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/inquilab"
+                    android:text="b3" />
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/jayjaydin"
+                    android:text="b4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bangladesh"
+                    android:layout_weight="1"
+                    android:id="@+id/b5"
+                    android:text="b5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/soklar"
+                    android:layout_weight="1"
+                    android:id="@+id/b6"
+                    android:text="b6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/songram"
+                    android:layout_weight="1"
+                    android:id="@+id/b7"
+                    android:text="b7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/diganta"
+                    android:layout_weight="1"
+                    android:id="@+id/b8"
+                    android:text="b8"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

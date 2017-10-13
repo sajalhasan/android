@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sajal.world.multchoseapps.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Score"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="8dp"
+            android:text="The Question Section Here??"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="90dp"
+            android:text="one"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="180dp"
+            android:text="two"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="270dp"
+            android:text="three"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="360dp"
+            android:text="four"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</LinearLayout>
